@@ -39,9 +39,9 @@
 https://www.sanfoundry.com/1000-javascript-questions-answers/
 
 ## Screen shot:
-![Web APIs Challenge: Code Quiz - Screen Shot1](./Assets/img/screenshot1.jpg)
-![Web APIs Challenge: Code Quiz - Screen Shot2](./Assets/img/screenshot2.jpg)
-![Web APIs Challenge: Code Quiz - Screen Shot3](./Assets/img/screenshot3.jpg)
+![Web APIs Challenge: Code Quiz - Screen Shot1](./assets/img/screenshot1.jpg)
+![Web APIs Challenge: Code Quiz - Screen Shot2](./assets/img/screenshot2.jpg)
+![Web APIs Challenge: Code Quiz - Screen Shot3](./assets/img/screenshot3.jpg)
 
 # 04 Web APIs: Code Quiz
 
