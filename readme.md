@@ -31,14 +31,17 @@
 8) users can view high scores or clear it.
 
 ## Deployment
-URL: 
-GITHUB: 
+  URL: https://csetiawan88.github.io/quiz/
+
+  GITHUB: https://github.com/csetiawan88/quiz
 
 ## Questions and answer source
 https://www.sanfoundry.com/1000-javascript-questions-answers/
 
 ## Screen shot:
-![Web APIs Challenge: Code Quiz - Screen Shot](./Assets/)
+![Web APIs Challenge: Code Quiz - Screen Shot1](./Assets/img/screenshot1.jpg)
+![Web APIs Challenge: Code Quiz - Screen Shot2](./Assets/img/screenshot2.jpg)
+![Web APIs Challenge: Code Quiz - Screen Shot3](./Assets/img/screenshot3.jpg)
 
 # 04 Web APIs: Code Quiz
 
