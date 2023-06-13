@@ -1,94 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Code Quiz</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web APIs Challenge: Code Quiz</title>
 
-    <!-- Link for reset and style -->
-    <!-- <link rel="stylesheet" type="text/css" href="./assets/reset.css"> -->
-    <link rel="stylesheet" type="text/css" href="./assets/style.css">
-</head>
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+  </head>
 
-<body>
-<div class="container">
-    <div class="containerBody">
-        <!-- Header for view high Scores and time -->
+  <body>
+    <div class="container">
+      <div class="containerBody">
         <header>
-            <h4 id="view-high-scores">View High Scores</h4> 
-            <h4 class="timer">Time left: <span id="timer"></span> Seconds</h4>
+          <h4 id="view-high-scores">View High Scores</h4>
+          <h4 class="timer">Time left: <span id="timer"></span> Seconds</h4>
         </header>
 
-        <!-- Welcome Message -->
         <div id="starter-container" class="show">
-            <div class="container start">
-               <h1>Web APIs Challenge: Code Quiz</h1>
-               
-                <p>Try to answer the following code-related questions within the time limit. Correct answers are worth 10 points!
-                Keep in mind that incorrect answers will penalize your score by 2 points and your time by 10 seconds!
-                </p>
+          <div class="container start">
+            <h1>Web APIs Challenge: Code Quiz</h1>
 
-                <h2>Quiz features :</h2>
-                <ul>
-                    <li>5 questions</li>
-                    <li>75 seconds Quiz</li>
-                    <li>Random questions</li>
-                    <li>Save initials and view High Scores</li>
-                </ul>
+            <p>
+              Try to answer the following code-related questions within the time
+              limit. Correct answers are worth 10 points! Keep in mind that
+              incorrect answers will penalize your score by 2 points and your
+              time by 10 seconds!
+            </p>
 
-                <button class="btn startend" id="start-game">Start Quiz</button>
-            </div>    
-        </div>  
+            <h2>Quiz features :</h2>
+            <ul>
+              <li>5 questions</li>
+              <li>75 seconds Quiz</li>
+              <li>Random questions</li>
+              <li>Save initials and view High Scores</li>
+            </ul>
 
-        <!-- Questions -->
+            <button class="btn startend" id="start-game">Start Quiz</button>
+          </div>
+        </div>
+
         <div id="question-container" class="hide">
-            <div class="container questions">
-                <div id="question"></div>
-                <div id="answer-buttons" class="btn-grid"></div>
-            </div>
+          <div class="container questions">
+            <div id="question"></div>
+            <div id="answer-buttons" class="btn-grid"></div>
+          </div>
         </div>
 
-        <!-- Enter Initial -->
         <div id="end-container" class="hide">
-            <div class="container end">
-             <div id=score-banner>
-                 <h1>All done!</h1>
-             </div>  
-             <form id="initials-form" class="initials">
-               <p> Enter Initials:
-                 <input type="text" name="initials" id="initials" class="text-input" />
-                 <button class="btn startend" id="sumbit-score" type="submit">Submit</button> </p>
-               </form>
-             </div>
-         </div>
+          <div class="container end">
+            <div id="score-banner">
+              <h1>All done!</h1>
+            </div>
+            <form id="initials-form" class="initials">
+              <p>
+                Enter Initials:
+                <input
+                  type="text"
+                  name="initials"
+                  id="initials"
+                  class="text-input"
+                />
+                <button class="btn startend" id="sumbit-score" type="submit">
+                  Submit
+                </button>
+              </p>
+            </form>
+          </div>
+        </div>
 
-        <!-- View High Scores -->
         <div id="high-score-container" class="hide">
-            <div class="high-scores container">
-              <h1 class="high-score">High Scores</h1>
-              <ol id="high-score-list" class="score-list"></ol>
-        <!-- Button to go back and clear high scores -->
-        <div>
-            <button class="btn" id="go-back">Go back</button>
-            <button class="btn" id="clear-high-scores">Clear high scores</button>
-        </div>
-        </div>
-    </div>   
+          <div class="high-scores container">
+            <h1 class="high-score">High Scores</h1>
+            <ol id="high-score-list" class="score-list"></ol>
 
-        <!-- Correct or Wrong -->
+            <div>
+              <button class="btn" id="go-back">Go back</button>
+              <button class="btn" id="clear-high-scores">
+                Clear high scores
+              </button>
+            </div>
+          </div>
+        </div>
+
         <div class="hide" id="correct">
-            <h2>Correct</h2>
+          <h2>Correct</h2>
         </div>
         <div class="hide" id="wrong">
-            <h2>Wrong</h2>
+          <h2>Wrong</h2>
         </div>
 
-    <!-- link to Javascript -->
-    <script src="./assets/script.js"></script>
-
-</div>
-</div>
-</body>
-
+        <script src="./assets/script.js"></script>
+      </div>
+    </div>
+  </body>
 </html>
-

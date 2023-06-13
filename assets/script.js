@@ -123,7 +123,6 @@ let displayQuestion = function (index) {
   }
 };
 
-
 // function to check if answer is correct.
 let answerCheck = function (event) {
   let selectedanswer = event.target;
@@ -253,7 +252,7 @@ let displayHighScores = function () {
     wrongEl.classList.add("hide");
   }
 };
-// View high scores removes
+// View high scores & removes
 let clearScores = function () {
   HighScores = [];
 
@@ -266,15 +265,10 @@ let clearScores = function () {
 
 loadHighScore();
 
-//Event Listener to start game
 btnStartEl.addEventListener("click", startGame);
-//on submit button -- enter or click
 formInitials.addEventListener("submit", createHighScore);
-//when view high-scores is clicked
 ViewHighScoreEl.addEventListener("click", displayHighScores);
-//Go back button
 btnGoBackEl.addEventListener("click", renderStartPage);
-//clear scores button
 btnClearScoresEl.addEventListener("click", clearScores);
 
 // Questions. SRC:https://www.sanfoundry.com/1000-javascript-questions-answers/
@@ -302,9 +296,18 @@ let questions = [
   {
     q: "What is JavaScript",
     choices: [
-      { choice: "1. JavaScript is a scripting language used to make the website interactive" },
-      { choice: "2. JavaScript is an assembly language used to make the website interactive" },
-      { choice: "3.  JavaScript is a compiled language used to make the website interactive" },
+      {
+        choice:
+          "1. JavaScript is a scripting language used to make the website interactive",
+      },
+      {
+        choice:
+          "2. JavaScript is an assembly language used to make the website interactive",
+      },
+      {
+        choice:
+          "3.  JavaScript is a compiled language used to make the website interactive",
+      },
       { choice: "4. None of the mentioned" },
     ],
     a: "1. JavaScript is a scripting language used to make the website interactive",

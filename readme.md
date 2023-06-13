@@ -43,6 +43,8 @@ https://www.sanfoundry.com/1000-javascript-questions-answers/
 ![Web APIs Challenge: Code Quiz - Screen Shot2](./assets/img/screenshot2.jpg)
 ![Web APIs Challenge: Code Quiz - Screen Shot3](./assets/img/screenshot3.jpg)
 
+
+
 # 04 Web APIs: Code Quiz
 
 ## Your Task
